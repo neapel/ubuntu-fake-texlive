@@ -7,14 +7,15 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: fake-texlive
-# Version: <enter version here; defaults to 1.0>
+Version: 1.1
 # Maintainer: Your Name <yourname@example.com>
 # Pre-Depends: <comma-separated list of packages>
 # Depends: <comma-separated list of packages>
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
-Provides: texlive-latex-base, texlive-extra-utils, texlive-latex-extra, latex-xcolor, texlive-font-utils
-Replaces: texlive-latex-base, texlive-extra-utils, texlive-latex-extra, latex-xcolor, texlive-font-utils
+Provides: texlive-latex-base, texlive-extra-utils, texlive-latex-extra, latex-xcolor, texlive-font-utils, texlive-fonts-recommended, fonts-lmodern, fonts-texgyre, lmodern, luatex, tex-common, tex-gyre, texlive-base, texlive-binaries, texlive-common, texlive-doc-base, texlive-fonts-recommended, texlive-fonts-recommended-doc, texlive-luatex, tipa, ttf-marvosym
+Replaces: texlive-latex-base, texlive-extra-utils, texlive-latex-extra, latex-xcolor, texlive-font-utils, texlive-fonts-recommended, fonts-lmodern, fonts-texgyre, lmodern, luatex, tex-common, tex-gyre, texlive-base, texlive-binaries, texlive-common, texlive-doc-base, texlive-fonts-recommended, texlive-fonts-recommended-doc, texlive-luatex, tipa, ttf-marvosym
+
 # Architecture: all
 # Copyright: <copyright file; defaults to GPL2>
 # Changelog: <changelog file; defaults to a generic changelog>
